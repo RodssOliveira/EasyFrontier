@@ -20,4 +20,7 @@ from core import views
 urlpatterns = [
     path('', views.main_render),
     path('admin/', admin.site.urls),
+
+    #API
+    path('api/Remedio', views.medicines_all)
 ]
