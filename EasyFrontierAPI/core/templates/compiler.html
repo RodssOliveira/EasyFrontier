@@ -1,0 +1,98 @@
+{% load staticfiles %}
+
+<html lang="en">
+  <style>
+    body {
+      min-height: 100vh;
+      position: relative;
+      margin: 0;
+    }
+    footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        }
+
+    .text_style{
+      font-family: Raleway,RalewayOffline,sans-serif;
+      font-weight: 500;
+      letter-spacing: 2px;
+      font-size: 0.83em;
+    }
+
+    .text_style2{
+      font-family: Raleway,RalewayOffline,sans-serif;
+      font-weight: 500;
+      letter-spacing: 1px;
+      font-size: 1em;
+    }
+
+    h5{
+      display: inline-block;
+    }
+
+  </style>
+  <head>
+    <title>Easy Frontier</title>
+    <link rel="stylesheet" href="{% static  'css/bootstrap.css' %}">
+    <script src="{% static 'jquery/jquery-3.4.1.min.js' %}"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a href="https://github.com/RodssOliveira/Mini-Compilador-Lexico" target="_blank" class="nav-link text-right">
+        <img src="{% static 'img/abacaxi.png' %}">
+      </a>
+
+      <a class="navbar-brand" href="/">Easy Frontier API</a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <div class="panel-body panel-body-custom">
+      <div class="jumbotron" style="padding-top:3%; padding-bottom:3%;">
+        <div class="container text-center">
+            <h2>Easy Frontier API para consulta de medicamentos</h2>
+        </div>
+      </div>
+      <div class="container" style="margin-top: 3%">
+            <div class="row text_style">
+              <div class="col-md-4">
+                  <h5>Estrutura das requisições</h5>
+              </div>
+            </div>
+            <hr>
+            <blockquote class="text_style2">
+              <h4>Url</h4>
+                <p>
+                É necessário fazer uma chamada HTTP, método GET, para a URL https://www.easyfrontier.com/api/
+                <br>
+                <br>
+                <b>Parâmetros de URL</b>
+                <br>
+                <b>Remedios</b>: Para retornar todos os medicamentos registrados no sistema
+                <br>
+                <b>Remedios/nome_remedio</b>: Para retornar um medicamento especifico
+                <br>
+                <b>Remedios/nome_remedio/dado_especifico</b>: Para retornar um dado especifico do medicamento
+                <br>
+                <br>
+                As Respostas são retornadas no formato JSON.
+                <br>
+                <br>
+                <b>Exemplo de URL</b>
+                <br>
+                https://www.easyfrontier.com/api/Remedio
+                <br>
+                https://www.easyfrontier.com/api/Remedio/Tylenol
+                <br>
+                https://www.easyfrontier.com/api/Remedio/Tylenol/Valor
+                </p>
+            </blockquote>
+
+      </div>
+    </div>
+  </body>
+</html>
