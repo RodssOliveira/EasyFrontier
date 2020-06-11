@@ -22,5 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     #API
-    path('api/Remedio', views.medicines_all)
+    path('api/Remedio', views.medicines_all),
+    path('api/Remedio/<str:med_name>', views.medicines),
+    path('api/Remedio/<str:med_name>/<str:value>', views.medicines_specify)
 ]

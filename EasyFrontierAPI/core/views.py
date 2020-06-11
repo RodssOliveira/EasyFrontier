@@ -15,6 +15,21 @@ def main_render(request):
 def medicines_all(request):
     medicines = Medicines.objects.all().values()
     medicines_list = list(medicines)
-    print(medicines_list)
+
+    return JsonResponse(medicines_list, safe=False)
+
+
+@csrf_exempt
+def medicines(request, med_name):
+    medicines = Medicines.objects.filter(name__icontains=med_name.upper()).values()
+    medicines_list = list(medicines)
+
+    return JsonResponse(medicines_list, safe=False)
+
+
+@csrf_exempt
+def medicines_specify(request, med_name, value):
+    medicines = Medicines.objects.filter(name__icontains=med_name.upper()).values(value)
+    medicines_list = list(medicines)
 
     return JsonResponse(medicines_list, safe=False)
