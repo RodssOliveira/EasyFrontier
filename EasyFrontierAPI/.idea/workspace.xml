@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e11155b3-637e-4313-b720-97bd3221aa73" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/core/templates/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyFrontierAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EasyFrontierAPI/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyFrontierAPI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EasyFrontierAPI/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +24,28 @@
     <splitter split-orientation="horizontal" split-proportion="0.6225655">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/core/models.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
                   <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+=======
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/core/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/core/templates/order.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="433">
+                  <caret line="172" column="47" lean-forward="true" selection-start-line="172" selection-start-column="47" selection-end-line="172" selection-end-column="47" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
                 </state>
               </provider>
             </entry>
@@ -33,10 +60,26 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
             <entry file="file://$PROJECT_DIR$/core/views.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-159">
                   <caret line="33" selection-start-line="33" selection-end-line="33" />
+=======
+            <entry file="file://$PROJECT_DIR$/requirements.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/core/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="279">
+                  <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
                   </folding>
@@ -47,8 +90,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/EasyFrontierAPI/urls.py">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="391">
                   <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+=======
+                <state relative-caret-position="493">
+                  <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
                   <folding>
                     <element signature="e#639#671#0" expanded="true" />
                   </folding>
@@ -59,8 +107,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/core/admin.py">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="170">
                   <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+=======
+                <state relative-caret-position="357">
+                  <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
                   <folding>
                     <element signature="e#0#32#0" expanded="true" />
                   </folding>
@@ -72,7 +125,11 @@
             <entry file="file://$PROJECT_DIR$/EasyFrontierAPI/settings.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="425">
+<<<<<<< HEAD
                   <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+=======
+                  <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
                 </state>
               </provider>
             </entry>
@@ -84,8 +141,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/core/views.py">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="433">
                   <caret line="33" selection-start-line="33" selection-end-line="33" />
+=======
+                <state relative-caret-position="416">
+                  <caret line="47" selection-start-line="47" selection-end-line="47" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
                   </folding>
@@ -96,6 +158,16 @@
         </leaf>
       </split-second>
     </splitter>
+<<<<<<< HEAD
+=======
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -103,12 +175,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/admin.py" />
-        <option value="$PROJECT_DIR$/core/models.py" />
         <option value="$PROJECT_DIR$/core/templates/compiler.html" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/core/templates/code_generator.html" />
         <option value="$PROJECT_DIR$/EasyFrontierAPI/settings.py" />
         <option value="$PROJECT_DIR$/EasyFrontierAPI/urls.py" />
+        <option value="$PROJECT_DIR$/core/models.py" />
+        <option value="$PROJECT_DIR$/core/admin.py" />
         <option value="$PROJECT_DIR$/core/views.py" />
+        <option value="$PROJECT_DIR$/core/templates/order.html" />
       </list>
     </option>
   </component>
@@ -155,6 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -220,9 +296,15 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3163597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3163597" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -236,6 +318,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/EasyFrontierAPI/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -249,18 +332,32 @@
           <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/EasyFrontierAPI/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/models.py">
+    <entry file="file://$PROJECT_DIR$/EasyFrontierAPI/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+=======
+        <state relative-caret-position="425">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EasyFrontierAPI/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="391">
           <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+=======
+        <state relative-caret-position="493">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
           <folding>
             <element signature="e#639#671#0" expanded="true" />
           </folding>
@@ -269,21 +366,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/admin.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="170">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+=======
+        <state relative-caret-position="357">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/compiler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-159">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
+=======
+        <state relative-caret-position="279">
+          <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
+>>>>>>> a1208736b1ae44d42535b6733d335e6cd45a9483
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="172" column="47" lean-forward="true" selection-start-line="172" selection-start-column="47" selection-end-line="172" selection-end-column="47" />
         </state>
       </provider>
     </entry>

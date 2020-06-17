@@ -21,8 +21,11 @@ urlpatterns = [
     path('', views.main_render),
     path('admin/', admin.site.urls),
 
+    path('order/', views.order_process),
+
     #API
     path('api/Remedio', views.medicines_all),
     path('api/Remedio/<str:med_name>', views.medicines),
-    path('api/Remedio/<str:med_name>/<str:value>', views.medicines_specify)
+    path('api/Remedio/<str:med_name>/<str:value>', views.medicines_specify),
+    path('api/generate_order_code/', views.code_generator)
 ]
