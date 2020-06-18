@@ -36,9 +36,6 @@ def medicines_specify(request, med_name, value):
 
     return JsonResponse(medicines_list, safe=False)
 
-
-
-
 @csrf_exempt
 def order_process(request):
 
@@ -60,7 +57,10 @@ def code_generator(request):
         order_num = Order.objects.all().values('code').last()
         if len(products) > 1:
             code = '#DIV' + str(order_num['code']) + '/' + str(now.year)
-            Order.objects.create(code=int(order_num['code']) + 1)
+            code_number = int(order_num['code']) + 1
+            code_string = f"{code_number:06d}"
+            Order.objects.create(code=code_string)
+
         else:
             type = Medicines.objects.filter(name=products[0]).values('type')
             if type[0]['type'] == 1:
@@ -70,7 +70,9 @@ def code_generator(request):
             elif type[0]['type'] == 3:
                 code = '#HIG' + str(order_num['code']) + '/' + str(now.year)
 
-            Order.objects.create(code=int(order_num['code']) + 1)
+            code_number = int(order_num['code']) + 1
+            code_string = f"{code_number:06d}"
+            Order.objects.create(code=code_string)
 
         data = json.dumps(code)
 
